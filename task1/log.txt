@@ -1,0 +1,29 @@
+commit 270e8f7414657e16ee50c3cd133f47663afc59db
+Author: Dmitry Mikhed <axlaun@gmail.com>
+Date:   Mon Feb 12 17:14:46 2018 +0300
+
+    add second status
+
+commit 4740db5d91a051823d7e77542f25563e4e04e44c
+Author: Dmitry Mikhed <axlaun@gmail.com>
+Date:   Mon Feb 12 17:11:51 2018 +0300
+
+    add gitignore
+
+commit f37de13d0620ea47c1a7aea888bdbfc5972ecf81
+Author: Dmitry Mikhed <axlaun@gmail.com>
+Date:   Mon Feb 12 17:11:03 2018 +0300
+
+    add status.txt
+
+commit 8779446bc419518cbaee412975a000f4b812b5da
+Author: Mikhed Dmitry <axlaun@gmail.com>
+Date:   Sun Feb 11 23:05:29 2018 +0300
+
+    first commit
+
+commit 5f29e0a66de91e38f3748a640362dbc8fbb2032f
+Author: Mikhed Dmitry <axlaun@gmail.com>
+Date:   Sun Feb 11 23:03:28 2018 +0300
+
+    first commit
