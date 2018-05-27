@@ -9,6 +9,11 @@ header {
     justify-content: space-around;
     align-items: center;
     margin-bottom: 10px;
+    background-color: #e3d7fa;
+}
+
+body{
+    background-color: #f8f5f7;
 }
 
 p{
@@ -39,11 +44,21 @@ p{
     align-items: center;
 }
 
-.Add{
+.Skeeba{
+    height: 30px;
+    width: 130px;
+}
+
+.AddButton{
     width: 12%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.AddButton img{
+    height: 40px;
+    width: 40px;
 }
 
 .Avatar {
@@ -55,6 +70,8 @@ p{
 }
 .Avatar img{
     border-radius: 100%;
+    height: 40px;
+    width: 40px;
 }
 
 .BodyImgs{
