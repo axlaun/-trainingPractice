@@ -148,9 +148,21 @@
         return false;
     }
 
+    function find(array, value) {
+        for (var i = 0; i < array.length; i++) {
+            if (array[i].id === value) return i;
+        }
+        return -1;
+    }
+
     function removePhotoPost(id) {
-        var found = photoPosts.findIndex(i >= i.id === id);
-        photoPosts.splice(found, 1)
+        var found = find(photoPosts, id);
+        photoPosts.splice(found, 1);
+        if (found === -1) {
+            return false;
+        } else {
+            return true;
+        }
     }
 
     function editPhotoPost(id, object) {
