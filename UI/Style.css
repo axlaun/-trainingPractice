@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    height: 70px;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #e3d7fa;
+}
+
+body{
+    background-color: #f8f5f7;
+}
+
+p{
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+    color: #631878;
+}
+
+.Filter{
+    display: grid;
+    grid-template-columns: 35% 30% 35%;
+    grid-template-rows: 20% 30% 50%;
+}
+.FilterName{
+    grid-row-start: 1;
+    grid-column: 2;
+    font-weight: bold;
+    color: #3c0f49;
+}
+.Filter input{
+    grid-row-start: 3;
+    grid-column: 1/4;
+}
+.Filter div{
+    grid-column: 1/4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Skeeba{
+    height: 30px;
+    width: 130px;
+}
+
+.AddButton{
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.AddButton img{
+    height: 40px;
+    width: 40px;
+}
+
+.Avatar {
+    height: 55px;
+    width: 13%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Avatar img{
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+}
+
+.BodyImgs{
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 0.5fr 1fr;
+    grid-template-rows: repeat(3, 170px);
+    min-height: 1px;
+    margin: 1% 5%;
+}
+
+.BodyImgs .ImgHolder{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: #fcdaeb;
+    border: 2px solid #ca9ab3;
+    position: relative;
+    overflow: hidden;
+}
+
+.BodyImgs .ImgHolder:hover > div{
+    opacity: 1;
+    transition: opacity 0.5s;
+    height: 100%;
+    width: 100%;
+}
+
+.BodyImgs .ImgHolder div{
+    opacity: 0;
+    display: grid;
+    grid-template-columns: 15% 15% 40% 30%;
+    grid-template-rows: 20% 60% 18% 2%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: rgba(207,202,249,0.8);
+}
+
+.Descryption{
+    grid-column-start: 1;
+    grid-column-end: span 4;
+    grid-row-start: 2;
+}
+
+.Date{
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    grid-row-start: 3;
+}
+
+.RedactImg{
+    grid-row-start: 3;
+    grid-column-start: 3;
+}
+
+.DeleteImg{
+    grid-row-start: 3;
+    grid-column-start: 4;
+}
+
+.BodyImgs img{
+    width: 100%;
+    height: 100%;
+}
+
+.CentreImg{
+    grid-column-start: span 2;
+}
+
+.InfImg{
+    height: 5%;
+    position: absolute;
+    left: 125px;
+    top: 50px;
+    background-color: #222222;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
